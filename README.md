@@ -1,6 +1,8 @@
 # A Perfectionist's VR Setup
 This is a comprehensive guide to my VR setup, including some descriptions of how things work and why some things don't.
 
+## NOTE: This is a fork of Mixed VR Manager that includes a script to change screen resolution to 1080p 60Hz while running WMR. (To use this feature you need to copy [this file](http://tools.taubenkorb.at/change-screen-resolution/) into vr/bin/)
+
 ## Table of Contents
 
 * [PC Hardware](#pc-hardware)
