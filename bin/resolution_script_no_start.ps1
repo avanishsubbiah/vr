@@ -1,6 +1,6 @@
 $arg_0 = $args[0] -replace '"', ""
 $change_res_cmd = -join($arg_0, "","\ChangeScreenResolution.exe")
-$monitor_info_cmd = -join($change_res_cmd, " ", "/l")d
+$monitor_info_cmd = -join($change_res_cmd, " ", "/l")
 $monitor_info = Invoke-Expression $monitor_info_cmd
 $monitor_info = $monitor_info.split([Environment]::NewLine)
 $index = 0
